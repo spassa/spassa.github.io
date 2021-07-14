@@ -1,0 +1,385 @@
+html { font-size: 62.5%; height: 100%; } 
+
+body {
+  /* padding-top: 54px; */
+  font-size: 1.4rem;
+  font-family: "Lato", sans-serif;
+  color: white;
+  overflow-x: hidden;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+.full-height-container {
+  min-height: 100vh;
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.container-contents {
+  max-width: 1000px;
+}
+
+@media only screen and (max-width: 1500px) {
+  .container-contents {
+    max-width: 800px;
+  }  
+}
+ 
+.header-text {
+  color: white;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.title-box {
+  background-color: black;
+  padding: 2rem;
+  margin: 12rem auto;
+} 
+
+.section-header {
+  flex: 1 0 100%;
+}
+
+.section-header h2 {
+  flex: 0 1 auto;
+  background-color: #3E4A82;
+  padding: 2rem;
+  margin-bottom: 0;
+}
+
+nav.navbar.fixed-top.sp-nav > .container-fluid > .btn > div {
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
+
+/* mobile menu */
+@media only screen and (max-width: 1200px) {
+  body {
+    padding-top: 4.7rem;
+  }
+  nav.navbar.fixed-top.sp-nav > .container-fluid {
+    justify-content: space-evenly;
+  }
+}
+
+/* desktop menu */
+@media only screen and (min-width: 1200px) {
+  .nav-container {
+    display: inline-block;
+  }
+
+  nav.navbar.fixed-top.sp-nav {
+    background-color: initial !important;
+    padding-top: 6.5rem;
+    padding-right: 3rem;
+    left: initial !important;
+  }
+
+  nav.navbar.fixed-top.sp-nav > .container-fluid {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    width: initial !important;
+  }
+
+  nav.navbar.fixed-top.sp-nav > .container-fluid > .btn {
+    width: 15rem;
+    height: 6rem;
+    background-color: #cceeeb;
+    border: 5px solid #5A69AF;
+    color: #3E4A82;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav.navbar.fixed-top.sp-nav > .container-fluid > .btn > div {
+    font-weight: bold;
+  }
+
+  nav.navbar.fixed-top.sp-nav > .container-fluid > .btn:hover {
+    border-color: white;
+  }
+}
+
+.container-welcome {
+  background-image: url("https://cdn.glitch.com/3649677a-3704-44e2-a246-ca6bda84f955%2FIMG_8160.PNG?v=1585963217420");  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: black;
+}
+
+.container-profile {
+  background-color: rgb(150,125,250,0.5);
+  height: 100vh;
+  overflow: hidden;
+}
+
+.profile-gallery {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: stretch;
+}
+
+.image {
+  background-size: cover;
+}
+
+.profile-gallery > .image {
+  height: 26%;
+  flex: 1 0 33%;
+  opacity: 0.75;
+}
+
+.image.image-1 {
+  height: 15%;
+  background-position-y: -100px;
+  background-image: url("./images/young.jpg");
+}
+
+.image.image-2 {
+  background-position-y: -25px;
+  background-image: url("./images/run.jpg");
+}
+
+.image.image-3 {
+  background-position-y: -120px;
+  background-image: url("./images/mountain.jpg");
+}
+
+.image.image-4 {
+  background-position-y: -140px;
+  background-image: url("./images/bus.jpg");
+}
+
+.container-experience {
+  background-color: #9ac2c9;
+}
+
+.resume-entry {
+  margin: 1em auto;
+  display: block;
+}
+
+.resume-title {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.resume-entry > h3 {
+  font-size: 1.8rem;
+  background: rgb(62,74,130,0.6);
+  margin: 1rem;
+  padding: 1rem;
+  letter-spacing: 1px;
+}
+
+.resume-entry img {
+  width: 90%;
+}
+
+.resume-body {
+  font-size: 1.6rem;
+  background-color: rgb(255,255,255,0.6);
+  color: black;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+}
+
+.resume-body > h4 {
+  font-size: 1.6rem;
+}
+
+.resume-entry > .image {
+  opacity: 0.85;
+}
+
+.image-kp {
+  background-image: url("./images/kp_2.jpg");
+}
+
+.image-ia {
+  background-position-x: 40%;
+  background-image: url("./images/nevertheless.jpg");
+}
+
+.image-il {
+  background-image: url("./images/ew.jpg");
+}
+
+.image-ri-1 {
+  background-image: url("./images/ri-1.jpg");
+}
+
+.image-ri-2 {
+  background-position-y: -40px;
+  background-image: url("./images/ri-2.jpg");
+}
+
+.image-br {
+  background-image: url("./images/fair-futures.jpg");
+}
+
+.image-pa {
+  background-position-y: -20px;
+  background-image: url("./images/pa.jpg");
+}
+
+.image-bk {
+  background-image: url("./images/brooklyn.jpg");
+}
+
+
+.container-skills {
+  background-color: #9ac2c9;
+  display: block;
+}
+
+.skills {
+  height: 100%;
+  margin: inherit auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill {
+  background-color: #343F6F;
+  height: 5rem;
+  width: 15em;
+  padding: 2rem;
+  margin: 5rem auto;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.container-work {
+  background-color: #343F6F;
+}
+
+.work-boxes {
+  min-width: 85%;
+  margin: inherit auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.work-box {
+  height: 45rem;
+  width: 45rem;
+  margin: 5rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.work-box:hover {
+  cursor: pointer;
+  border: 1rem solid #cceeeb;
+  transition: 0.1s linear;
+}
+
+.work-box > span {
+  display: inline-block;
+  background-color: black;
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+
+  text-transform: lowercase;
+  letter-spacing: 3px;
+}
+
+.work-box-1 {
+  background-image:linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4)), 
+  url("https://cdn.glitch.com/3649677a-3704-44e2-a246-ca6bda84f955%2FWD_3.JPG?v=1585932332154");
+}
+
+.work-box-2 {
+  background-image:linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4)), 
+  url("https://cdn.glitch.com/3649677a-3704-44e2-a246-ca6bda84f955%2Fmfc.png?v=1625335153644");
+}
+
+.work-box-3 {
+  background-image:linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4)), 
+  url("https://cdn.glitch.com/3649677a-3704-44e2-a246-ca6bda84f955%2Fkaitlin_flower.png?v=1625335491898");
+}
+
+.work-box-4 {
+  background-image:linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4)), 
+  url("https://cdn.glitch.com/3649677a-3704-44e2-a246-ca6bda84f955%2Fmollie-icon-1080x1080_v1.png?v=1587925238826");
+}
+
+.container-contact {
+  background-color: #9ac2c9;
+  font-size: 1.8em;
+}
+
+.contact-rows {
+  align-items: flex-end;
+  height: 100%;
+  width: 100%;
+}
+
+.email {
+  color: white;
+}
+
+.contact-row {
+  flex: 1 0 100%;
+  text-align: center;
+  margin: 2em auto;
+}
+
+.contact-row a {
+  text-decoration: none;
+}
+
+.contact-row img {
+  max-height: 40px;
+}
+
+.location {
+  font-size: 1.4rem;
+}
+
+/* UTILITIES */
+
+.height-100 {
+  height: 100%;
+}
+
+.height-100-flex {
+  flex: 1 1 100%;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-1r {
+  padding: 1rem;
+}
+.p-2r {
+  padding: 2rem;
+}
