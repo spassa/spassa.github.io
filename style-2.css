@@ -1,0 +1,340 @@
+.work-row{
+  /*border: 3px solid red;*/
+  flex-basis: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 60%;
+  width: 65%;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+margin: 10px;
+  padding: 10px 10px;
+  /*opacity: 1;*/
+  
+
+  
+}
+
+
+.a{
+
+  background-image:linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4)), url("https://cdn.glitch.com/3649677a-3704-44e2-a246-ca6bda84f955%2FWD_3.JPG?v=1585932332154");
+  background-repeat: no-repeat;
+  width: 100%;
+  align-items: center;
+    background-size: 610px 410px;
+ justify-content: flex-start;
+  text-align: center;
+  align-items: center;
+  height: 20em;
+  width: 20em;
+  padding: 45px 45px;
+  margin: 20px 20px;
+  text-align: center;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+  font-size:16px;
+       border: 10px solid transparent;
+
+
+  
+}
+
+.a:hover {
+    background-image:linear-gradient(rgba(255,255,255,0.4),rgba(62,74,130)), url("https://cdn.glitch.com/3649677a-3704-44e2-a246-ca6bda84f955%2FWD_3.JPG?v=1585932332154");
+  cursor: pointer;
+  border: 10px solid #cceeeb;
+    transition: 0.2s linear;
+
+}
+
+.b{
+  
+  background-image:linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4)), url("https://cdn.glitch.com/3649677a-3704-44e2-a246-ca6bda84f955%2Fmfc.png?v=1625335153644");
+    background-repeat: no-repeat;
+  width: 100%;
+  align-items: center;
+    background-size: 410px 410px;
+ justify-content: flex-start;
+  text-align: center;
+  align-items: center;
+  height: 20em;
+  width: 20em;
+  padding: 45px 45px;
+  margin: 20px 20px;
+  text-align: center;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+  font-size:16px;
+       border: 10px solid transparent;
+
+
+}
+
+.b:hover {
+  cursor: pointer;
+  border: 10px solid #cceeeb;
+      transition: 0.2s linear;
+
+}
+
+.c{
+  
+  background-image:linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4)), url("https://cdn.glitch.com/3649677a-3704-44e2-a246-ca6bda84f955%2Fkaitlin_flower.png?v=1625335491898");
+   background-repeat: no-repeat;
+  width: 100%;
+  align-items: center;
+  background-size: 410px 410px;
+ justify-content: flex-start;
+  text-align: center;
+  align-items: center;
+  height: 20em;
+  width: 20em;
+  padding: 45px 45px;
+  margin: 20px 20px;
+  text-align: center;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+  font-size:16px;
+     border: 10px solid transparent;
+
+}
+.c:hover {
+  cursor: pointer;
+  border: 10px solid #cceeeb;
+      transition: 0.2s linear;
+
+}
+
+.d{
+  
+  background-image:linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4)), url("https://cdn.glitch.com/3649677a-3704-44e2-a246-ca6bda84f955%2Fmollie-icon-1080x1080_v1.png?v=1587925238826");
+   background-repeat: no-repeat;
+  width: 100%;
+  align-items: center;
+  background-size: 410px 410px;
+ justify-content: flex-start;
+  text-align: center;
+  align-items: center;
+  height: 20em;
+  width: 20em;
+  padding: 45px 45px;
+  margin: 20px 20px;
+  text-align: center;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+  font-size:16px;
+       border: 10px solid transparent;
+
+
+}
+.d:hover {
+  cursor: pointer;
+  border: 10px solid #cceeeb;
+      transition: 0.2s linear;
+
+
+}
+
+.work-box-text{
+  font-size:25px;
+  color: white;
+  letter-spacing: 3px;
+  font-family: sans-serif;
+  text-align:center;
+  align-items: center;
+  /*border: 2px solid pink;*/
+  background-color: rgb(0,0,0);
+    height: 38px;
+    /*width: 40%;  */
+    display: inline-block;
+  padding: 10px;
+  border-radius: 5px;
+  line-height: normal;
+  text-transform: lowercase;
+  /*top: 10px;*/
+}
+
+
+.title{
+  font-size:16px;
+  text-transform: uppercase;
+font-weight: bold;
+  
+}
+
+.flex-item-2 p{
+  font-size: 14px;
+}
+
+
+
+.ptext{
+  position:absolute;
+  top:10%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+
+}
+
+.ptext .border{
+  background-color:black;
+  color:#fff;
+  padding:20px;
+  opacity:0.8;
+}
+
+
+.ptext .border.trans{
+  opacity:0.8;
+  background: black;
+  
+}
+
+.ptext .border.trans-dark{
+  opacity:0.8;
+  background: white;
+  color: #111026;
+  }
+
+
+.prof-text{
+  color: black;
+  align-items: left;
+  /*display: inline;
+  line-height: 10px;*/
+  font-size: 30px;
+  
+  
+}
+
+
+.profile-image-1{
+  background-image:url("https://cdn.glitch.com/3649677a-3704-44e2-a246-ca6bda84f955%2Fself-icon-4.png?v=1587572746392");
+  background-size:30em;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+    background-repeat:no-repeat;
+      border: 5px solid green;
+height: 20em;
+  width: 31em;
+  padding: 100px 50px;
+    margin: 10px;
+background-color: white;
+  
+}
+
+.profile-image-2{
+  border: 5px solid purple;
+  height: 20em;
+  width: 31em;
+  padding: 100px 50px;
+    margin: 10px;
+}
+
+.profile-image-3{
+  background-image: url("https://cdn.glitch.com/3649677a-3704-44e2-a246-ca6bda84f955%2Fself-icon-2.png?v=1587533884337");
+  background-size:25em;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+    background-repeat:no-repeat;
+      border: 5px solid blue;
+  height: 20em;
+  width: 31em;
+  padding: 100px 50px;
+    margin: 10px;
+  
+}
+
+.column-description{
+  text-align: left;
+  letter-spacing: 0px;
+  font-family: sans-serif;
+  color: #FFFFFF;
+  position: absolute;
+  background-color: black;
+  opacity: .7;
+  overflow: visible;
+  height: 200px;
+  width: 60%;
+  border: 2px solid green;
+  display: flex;
+  flex-direction: row;
+  flex-basis: 100%;
+  padding: 15px;
+   flex: .5 1 auto;
+}
+
+ */
+
+
+
+/* @media(max-width:568px){
+  .pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7, .pimg8, .pimg9, .pimg10, .pimg11, .pimg12, .pimg13, .pimg14, .pimg15, .pimg16, .pimg17, .pimg18
+}
+
+
+
+@media(min-width:576px){
+  .gallery-block.compact-gallery .item .description{
+    opacity: 0;
+    
+  }
+  
+  .gallery-block.compact-gallery .item .description:hover{
+    opacity:1;
+    
+  }
+  .gallery-block .zoom-on-hover:hover .image{
+   transform: scale(1.3);
+    opacity: .5;   
+  }
+  
+
+
+.parallax-wrapper {
+    width: 100vw;
+    height:100vh;
+    padding-top:20vh;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.regular-wrapper {
+    width: 100vw;
+    height:100vh;
+    padding-top:20vh;
+    background-image: url("https://cdn.glitch.com/3649677a-3704-44e2-a246-ca6bda84f955%2FWD-3.JPG?v=1585419373168");
+
+}
+.content {
+      margin: 0 auto;
+    padding: 50px;
+    width: 50%;
+    background: #aaa;
+  }
+
+  .parallax-wrapper::before {
+    content:"";
+    width: 100vw;
+    height: 100vh;
+    top:0;
+    left:0;
+    background-image: url("https://cdn.glitch.com/3649677a-3704-44e2-a246-ca6bda84f955%2FWD-3.JPG?v=1585419373168");
+    image-size: 50%;
+    position: absolute;
+    z-index: -1;
+  
+  }
+} */
+
