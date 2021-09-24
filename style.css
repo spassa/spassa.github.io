@@ -297,8 +297,8 @@ nav.navbar.fixed-top.sp-nav > .container-fluid > .btn > div {
 }
 
 .work-box {
-  height: 45rem;
-  width: 45rem;
+  height: 35rem;
+  width: 35rem;
   margin: 5rem;
   background-size: cover;
   background-repeat: no-repeat;
@@ -314,7 +314,12 @@ nav.navbar.fixed-top.sp-nav > .container-fluid > .btn > div {
   transition: 0.1s linear;
 }
 
-.work-box > span {
+.work-boxes a {
+  text-decoration: none;
+  color: white;
+}
+
+.work-box span {
   display: inline-block;
   background-color: black;
   font-size: 2rem;
