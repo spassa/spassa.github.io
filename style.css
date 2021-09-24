@@ -112,7 +112,7 @@ nav.navbar.fixed-top.sp-nav > .container-fluid > .btn > div {
 }
 
 .container-welcome {
-  background-image: url("https://cdn.glitch.com/3649677a-3704-44e2-a246-ca6bda84f955%2FIMG_8160.PNG?v=1585963217420");  
+  background-image: url("./images/cover_1.png");  
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -120,9 +120,13 @@ nav.navbar.fixed-top.sp-nav > .container-fluid > .btn > div {
 }
 
 .container-profile {
-  background-color: rgb(150,125,250,0.5);
+  background-color: #9ac2c9;
   height: 100vh;
   overflow: hidden;
+}
+
+.blurb p {
+  font-size: 3rem !important;
 }
 
 .profile-gallery {
@@ -145,23 +149,26 @@ nav.navbar.fixed-top.sp-nav > .container-fluid > .btn > div {
 
 .image.image-1 {
   height: 15%;
-  background-position-y: -100px;
-  background-image: url("./images/young.jpg");
+  background-position-y: -30px;
+  background-position-x: -50px;
+  background-image: url("./images/image-1.jpg");
 }
 
 .image.image-2 {
   background-position-y: -25px;
-  background-image: url("./images/run.jpg");
+  background-image: url("./images/image-2.jpg");
+  opacity: 0.75;
 }
 
 .image.image-3 {
-  background-position-y: -120px;
-  background-image: url("./images/mountain.jpg");
+  background-position-y: -90px;
+  background-image: url("./images/image-3.jpg");
 }
 
 .image.image-4 {
-  background-position-y: -140px;
-  background-image: url("./images/bus.jpg");
+  background-position-y: -30px;
+  background-image: url("./images/image-4.jpg");
+  opacity: 0.75;
 }
 
 .container-experience {
@@ -208,38 +215,48 @@ nav.navbar.fixed-top.sp-nav > .container-fluid > .btn > div {
 }
 
 .image-kp {
-  background-image: url("./images/kp_2.jpg");
+  background-position-y: -10px;
+  background-image: url("./images/kp_1.png");
 }
 
 .image-ia {
-  background-position-x: 40%;
-  background-image: url("./images/nevertheless.jpg");
+  background-position-y: -10px;
+
+  background-image: url("./images/ia_1.png");
 }
 
 .image-il {
-  background-image: url("./images/ew.jpg");
+  background-position-y: -7px;
+
+  background-image: url("./images/il_1.png");
 }
 
-.image-ri-1 {
-  background-image: url("./images/ri-1.jpg");
-}
+
 
 .image-ri-2 {
-  background-position-y: -40px;
-  background-image: url("./images/ri-2.jpg");
+  background-position-y: -8px;
+  background-image: url("./images/ri_1.png");
 }
 
 .image-br {
-  background-image: url("./images/fair-futures.jpg");
+  background-image: url("./images/berlin-rosen-pr.jpeg");
+  background-color: #569CBE;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: 60px;
+
 }
 
 .image-pa {
-  background-position-y: -20px;
-  background-image: url("./images/pa.jpg");
+  background-position-y: -10px;
+
+  background-image: url("./images/pa_1.png");
 }
 
 .image-bk {
-  background-image: url("./images/brooklyn.jpg");
+  background-position-y: -4px;
+
+  background-image: url("./images/hfa_1.png");
 }
 
 
@@ -247,7 +264,7 @@ nav.navbar.fixed-top.sp-nav > .container-fluid > .btn > div {
   background-color: #9ac2c9;
   display: block;
 }
-
+  
 .skills {
   height: 100%;
   margin: inherit auto;
@@ -315,7 +332,10 @@ nav.navbar.fixed-top.sp-nav > .container-fluid > .btn > div {
 
 .work-box-2 {
   background-image:linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4)), 
-  url("https://cdn.glitch.com/3649677a-3704-44e2-a246-ca6bda84f955%2Fmfc.png?v=1625335153644");
+  url("./images/mfc_1.png");
+  background-position-x: 10%;
+
+
 }
 
 .work-box-3 {
@@ -329,8 +349,8 @@ nav.navbar.fixed-top.sp-nav > .container-fluid > .btn > div {
 }
 
 .container-contact {
-  background-color: #9ac2c9;
-  font-size: 1.8em;
+  background-color: #343F6F;
+    font-size: 1.8em;
 }
 
 .contact-rows {
