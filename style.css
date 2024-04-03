@@ -48,7 +48,7 @@ p {
 
 .section-header h2 {
   flex: 0 1 auto;
-  background-color: #3E4A82;
+  background-color: #efb176;
   padding: 2rem;
   margin-bottom: 0;
 }
@@ -91,9 +91,8 @@ nav.navbar.fixed-top.sp-nav > .container-fluid > .btn > div {
   nav.navbar.fixed-top.sp-nav > .container-fluid > .btn {
     width: 15rem;
     height: 6rem;
-    background-color: #cceeeb;
-    border: 5px solid #5A69AF;
-    color: #3E4A82;
+    background-color: #F9E0C8;
+    color: #db771a;
     padding: 0.5rem;
     margin: 0.5rem;
     border-radius: 0;
@@ -120,9 +119,11 @@ nav.navbar.fixed-top.sp-nav > .container-fluid > .btn > div {
 }
 
 .container-profile {
-  background-color: #9ac2c9;
+  background-color: #fdf5ed;
   height: 100vh;
   overflow: hidden;
+  color: #666370;
+
 }
 
 .blurb p {
@@ -172,7 +173,8 @@ nav.navbar.fixed-top.sp-nav > .container-fluid > .btn > div {
 }
 
 .container-experience {
-  background-color: #9ac2c9;
+  background-color: #666370;
+  
 }
 
 .resume-entry {
@@ -187,7 +189,8 @@ nav.navbar.fixed-top.sp-nav > .container-fluid > .btn > div {
 
 .resume-entry > h3 {
   font-size: 1.8rem;
-  background: rgb(62,74,130,0.6);
+  background-color: #F9E0C8;
+    color: #db771a;
   margin: 1rem;
   padding: 1rem;
   letter-spacing: 1px;
@@ -285,7 +288,7 @@ nav.navbar.fixed-top.sp-nav > .container-fluid > .btn > div {
 }
 
 .container-work {
-  background-color: #343F6F;
+  background-color: #fdf5ed;
 }
 
 .work-boxes {
@@ -310,7 +313,7 @@ nav.navbar.fixed-top.sp-nav > .container-fluid > .btn > div {
 
 .work-box:hover {
   cursor: pointer;
-  border: 1rem solid #cceeeb;
+  border: 1rem solid #EFB176;
   transition: 0.1s linear;
 }
 
@@ -321,7 +324,9 @@ nav.navbar.fixed-top.sp-nav > .container-fluid > .btn > div {
 
 .work-box span {
   display: inline-block;
-  background-color: black;
+  background-color: #fdf5ed;
+  color: #db771a;
+  font-weight: bold;
   font-size: 2rem;
   padding: 1rem;
   border-radius: 0.5rem;
@@ -354,7 +359,7 @@ nav.navbar.fixed-top.sp-nav > .container-fluid > .btn > div {
 }
 
 .container-contact {
-  background-color: #343F6F;
+  background-color: #fdf5ed;
     font-size: 1.8em;
 }
 
@@ -365,7 +370,7 @@ nav.navbar.fixed-top.sp-nav > .container-fluid > .btn > div {
 }
 
 .email {
-  color: white;
+  color: #666370;
 }
 
 .contact-row {
