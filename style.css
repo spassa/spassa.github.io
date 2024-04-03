@@ -332,7 +332,7 @@ nav.navbar.fixed-top.sp-nav > .container-fluid > .btn > div {
 
 .work-box-1 {
   background-image:linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4)), 
-  url("https://cdn.glitch.com/3649677a-3704-44e2-a246-ca6bda84f955%2FWD_3.JPG?v=1585932332154");
+  url("./images/image-4.jpg");
 }
 
 .work-box-2 {
@@ -345,7 +345,7 @@ nav.navbar.fixed-top.sp-nav > .container-fluid > .btn > div {
 
 .work-box-3 {
   background-image:linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4)), 
-  url("https://cdn.glitch.com/3649677a-3704-44e2-a246-ca6bda84f955%2Fkaitlin_flower.png?v=1625335491898");
+  url("./images/mask graphic.png");
 }
 
 .work-box-4 {
